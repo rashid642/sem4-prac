@@ -1,0 +1,3 @@
+Inside testing1.txt
+2nd line
+3rd line

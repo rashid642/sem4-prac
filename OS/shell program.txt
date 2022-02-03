@@ -1,0 +1,38 @@
+
+echo "Enter a";
+read a;
+echo "Enter b";
+read b;
+sum=$(($a+$b));
+echo "sum=$sum";
+
+
+echo "enter a number";
+read num;
+if [ $(($num%2)) == 0 ]
+then
+    echo "Its even"
+else 
+    echo "Not even"
+fi
+
+
+echo "enter the array to find sum"
+read -a arr
+sum=0
+for ele in ${arr[@]}
+do
+sum=$(($sum+$ele))
+done
+
+echo "sum=$sum"
+
+
+echo "enter your age"
+read age
+if [ $age > 18 ]
+then
+echo "can vote";
+else
+echo "can not vote";
+fi
